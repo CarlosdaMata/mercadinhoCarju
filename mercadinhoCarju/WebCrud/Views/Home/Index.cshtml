@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Mercadinho Carju</h1>
+    <p> Pequeno no tamanho, gigante na economia! </p>
+
+    <div class="text-center">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/img1.png" class="d-block w-100 h-30" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img2.png" class="d-block w-100 h-30" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/img3.png" class="d-block w-100 h-30" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frutas e Legumes</h5>
+                        <p class="card-text">Aqui você poderá encontrar uma grande variedade de frutas e legumes de alta qualidade.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pães e Massas</h5>
+                        <p class="card-text">Aqui você poderá se adquirir as mais diversas massas, incluindo pães, macarrões e lanches.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Café da Manhã</h5>
+                        <p class="card-text">Aqui você poderá encontrar itens para seu café da manhã, incluindo bolos, achocolatados e frios.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="container">
+        <section class="produtos-section">
+            <h1>Produtos Disponíveis</h1>
+
+            <div class="grid-produtos">
+
+                <div class="produto-card">
+                    <img src="./img/pao.jfif" alt="Pão Francês" class="produto-img">
+                    <h2>Pão Francês</h2>
+                    <p class="preco">R$ 0,50 (unidade)</p>
+                    <p class="descricao">Crocante por fora e macio por dentro.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/bolochoco.jfif" alt="Bolo de Chocolate" class="produto-img">
+                    <h2>Bolo de Chocolate</h2>
+                    <p class="preco">R$ 24,90</p>
+                    <p class="descricao">Bolo fofinho com cobertura cremosa.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/coxinha.jfif" alt="Coxinha" class="produto-img">
+                    <h2>Coxinha</h2>
+                    <p class="preco">R$ 5,00</p>
+                    <p class="descricao">Recheio de frango temperado, massa leve.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/rosquinha.jfif" alt="Rosquinha" class="produto-img">
+                    <h2>Rosquinha</h2>
+                    <p class="preco">R$ 3,50</p>
+                    <p class="descricao">Doce tradicional com cobertura de açúcar.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/brownie.jfif" alt="Rosquinha" class="produto-img">
+                    <h2>Brownie</h2>
+                    <p class="preco">R$ 8,50</p>
+                    <p class="descricao">Vem com uma quantidade razoavel de chocolate.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/cookie.jfif" alt="Rosquinha" class="produto-img">
+                    <h2>Cookies</h2>
+                    <p class="preco">R$ 9,00</p>
+                    <p class="descricao">Doce aprovado e mais vendido.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/esfiha.jfif" alt="Rosquinha" class="produto-img">
+                    <h2>Esfiha</h2>
+                    <p class="preco">R$ 1,50</p>
+                    <p class="descricao">Sabores de carne/frango/costela.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/kibe.jfif" alt="Rosquinha" class="produto-img">
+                    <h2>Kibe</h2>
+                    <p class="preco">R$ 1,55</p>
+                    <p class="descricao">Salgado tradicional do Mercadilico.</p>
+                </div>
+
+                <div class="produto-card">
+                    <img src="./img/suco.jfif" alt="Rosquinha" class="produto-img">
+                    <h2>Suco natural</h2>
+                    <p class="preco">R$ 6,59</p>
+                    <p class="descricao">Vem sem açucar, mas com um forte gosto da fruta.</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+</div>
